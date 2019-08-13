@@ -63,6 +63,40 @@ class Main extends Component {
                   <div className="overview__rating--years">26 Years</div>
               </div>
           </div>
+          <div className="detail">
+            <div className="description">
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur condimentum orci, id rutrum urna mattis ut. Fusce facilisis justo mi, et tempor leo vehicula eget. Mauris id mollis ligula. In pulvinar ac est sit amet malesuada.
+              </p>
+              <p className="paragraph">
+                cursus quam, sed vehicula arcu leo at odio. Maecenas tellus ex, rutrum a mollis nec, aliquam quis justo. Vivamus vulputate, libero nec rutrum vulputate, ante urna pretium libero, nec mattis ex tellus in est. Praesent auctor sagittis urna, hendrerit vehicula mauris vestibulum eu.
+              </p>
+              <ul className="list">
+                <li className="list__item">hahahahhahah</li>
+                <li className="list__item">hahahahhahah</li>
+                <li className="list__item">hahahahhahah</li>
+                <li className="list__item">hahahahhahah</li>
+                <li className="list__item">hahahahhahah</li>
+                <li className="list__item">hahahahhahah</li>
+                <li className="list__item">hahahahhahah</li>
+                <li className="list__item">hahahahhahah</li>
+              </ul>
+              <div className="recommend">
+                <p className="recommend__count">
+                  Lucy and 3 other friends recommend this.
+                </p>
+                <div className="recommend__friends">
+                  <img src="#" alt="Friend 1" className="recommend__photo" />
+                  <img src="#" alt="Friend 2" className="recommend__photo" />
+                  <img src="#" alt="Friend 3" className="recommend__photo" />
+                  <img src="#" alt="Friend 4" className="recommend__photo" />
+                </div>
+              </div>
+            </div>
+            <div className="user-reviews">
+              user reviews
+            </div>
+          </div> 
       </div>
     );
   }
